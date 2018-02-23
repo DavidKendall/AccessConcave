@@ -1,0 +1,81 @@
+\begin{thebibliography}{10}
+
+\bibitem{IT:10}
+Amelia~Ritahani Ismail and Jon Timmis.
+\newblock Towards self-healing swarm robotic systems inspired by granuloma
+  formation.
+\newblock In {\em Engineering of Complex Computer Systems (ICECCS), 2010 15th
+  IEEE International Conference on}, pages 313--314. IEEE, 2010.
+
+\bibitem{JG:13}
+Shin-Young Jung and Michael~A Goodrich.
+\newblock Multi-robot perimeter-shaping through mediator-based swarm control.
+\newblock In {\em Advanced Robotics (ICAR), 2013 16th International Conference
+  on}, pages 1--6. IEEE, 2013.
+
+\bibitem{GN:08}
+Geunho Lee and Nak~Young Chong.
+\newblock Self-configurable mobile robot swarms with hole repair capability.
+\newblock In {\em Intelligent Robots and Systems, 2008. IROS 2008. IEEE/RSJ
+  International Conference on}, pages 1403--1408, Sept 2008.
+
+\bibitem{MD:09}
+James McLurkin and Erik~D Demaine.
+\newblock A distributed boundary detection algorithm for multi-robot systems.
+\newblock In {\em Intelligent Robots and Systems, 2009. IROS 2009. IEEE/RSJ
+  International Conference on}, pages 4791--4798. IEEE, 2009.
+
+\bibitem{SOM:12}
+D.~Salda\ na, D.~Ovalle, and A.~Montoya.
+\newblock Improved algorithm for perimeter tracking in robotic sensor networks.
+\newblock In {\em Informatica (CLEI), 2012 XXXVIII Conferencia Latinoamericana
+  En}, pages 1--7, Oct 2012.
+
+\bibitem{NIM:09}
+Inaki Navarro and F~Mat{\'\i}a.
+\newblock A proposal of a set of metrics for collective movement of robots.
+\newblock {\em Proc. Workshop on Good Experimental Methodology in Robotics},
+  2009.
+
+\bibitem{RMT:15}
+J.~H. Roach, R.~J. Marks, and B.~B. Thompson.
+\newblock Recovery from sensor failure in an evolving multiobjective swarm.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  45(1):170--174, Jan 2015.
+
+\bibitem{DHMRZ:06}
+Y.~s.~Dai, M.~Hinchey, M.~Madhusoodan, J.~L. Rash, and X.~Zou.
+\newblock A prototype model for self-healing and self-reproduction in swarm
+  robotics system.
+\newblock In {\em 2006 2nd IEEE International Symposium on Dependable,
+  Autonomic and Secure Computing}, pages 3--10, Sept 2006.
+
+\bibitem{DS:15}
+David Smalley.
+\newblock Autonomous warfare – a revolution in military affairs.
+\newblock
+  \url{http://www.onr.navy.mil/Media-Center/Press-Releases/2015/LOCUST-low-cost-UAV-swarm-ONR.aspx},
+  April 2015.
+\newblock [Online; accessed 15-Apr-2016].
+
+\bibitem{VH:09}
+E.~Vassev and M.~Hinchey.
+\newblock Assl specification and code generation of self-healing behavior for
+  nasa swarm-based systems.
+\newblock In {\em 2009 Sixth IEEE Conference and Workshops on Engineering of
+  Autonomic and Autonomous Systems}, pages 77--86, April 2009.
+
+\bibitem{MW:15}
+Maxim Worchester.
+\newblock Autonomous warfare – a revolution in military affairs.
+\newblock \url{https://www.files.ethz.ch/isn/190160/340_Worcester.pdf}, April
+  2015.
+\newblock [Online; accessed 15-Apr-2016].
+
+\bibitem{ZFG:13}
+Guoxian Zhang, Gregory~K Fricke, and Devendra~P Garg.
+\newblock Spill detection and perimeter surveillance via distributed swarming
+  agents.
+\newblock {\em Mechatronics, IEEE/ASME Transactions on}, 18(1):121--129, 2013.
+
+\end{thebibliography}
