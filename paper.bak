@@ -451,7 +451,7 @@ When a swarm is forming or disrupted through either agent failures, catastrophic
 \section{Concave reduction mathematical model}\label{concave:ConcaveVoidReduction1}
 As part of identifying a perimter agents a set of agents sorted by angle and a set ($b.gap \equiv G_b$) consisting of the first two agents identified as creating a `gap' in agent $b$'s neighbours. Equation~\eqref{eq:ConcaveVoidPhysics3} calculates the centroid of the gap agents. 
 
-Equation~\eqref{eq:ConcaveVoidPhysics1} generates the dictionary set of all the neighbours along with an angle that each of the agent's neighbour's make with the first detected neighbour. $nbr(b)$ returns a set of all an agents neighbours.
+Equation~\eqref{eq:ConcaveVoidPhysics1} generates the dictionary set of all the neighbours along with an angle that each of the agent’s neighbour’s make with the first detected neighbour. $nbr(b)$ returns a set of all an agents neighbours.
 
 \begin{equation}
 \label{eq:ConcaveVoidPhysics1}
@@ -653,12 +653,12 @@ For the period of the simulation the baseline had 19049 perimeter agents and the
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=8cm]{figures/Baseline8060End}
 {Baseline end\label{fig:BaselineEndPoint}}
 
-%% \begin{figure}
-%% \begin{center}
-%% \includegraphics[width=8cm]{figures/Baseline8060End}
-%% \end{center}
-%% \caption{Baseline end\label{fig:BaselineEndPoint}}
-%% \end{figure}
+\begin{figure}
+\begin{center}
+\includegraphics[width=8cm]{figures/Baseline8060End}
+\end{center}
+\caption{Baseline end\label{fig:BaselineEndPoint}}
+\end{figure}
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=8cm]{figures/Concave8060End}
 {Concave reduction end\label{fig:ConcaveEndPoint}}
@@ -738,7 +738,7 @@ Speed & 20 & 20 & units/s\\  \hline
 Figures~\ref{fig:BaselineEndPoint4560} and \ref{fig:ConcaveEndPoint4560} shows the end points for the simulations for the concave reduction experiments. Figure~\ref{fig:BaselineEndPoint4560} shows the end point for the baseline. It shows that at the end of the simulation the void within the swarm persists. This is due to the distribution of the agents being optimal for the given simulation parameters and the structures within the swarm being `stable'. Figure~\ref{fig:ConcaveEndPoint4560} shows the end point for the simulation with concave reduction enabled using the same swarm and configuration parameters. The concave reduction algorithm has removed the void from the swarm completely and the outer perimeter has been `smoothed'. 
 
 %COVERBASELINE4560-BASEEND.py
-\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=8cm]{figures/Baseline4560End}
+\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=5cm]{figures/Baseline4560End}
 {Baseline end\label{fig:BaselineEndPoint4560}}
 
 %% \begin{figure}
@@ -749,7 +749,7 @@ Figures~\ref{fig:BaselineEndPoint4560} and \ref{fig:ConcaveEndPoint4560} shows t
 %% \end{figure}
 
 %COVERBASELINE4560END3.py
-\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=8cm]{figures/Concave4560End}
+\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=5cm]{figures/Concave4560End}
 {Concave end\label{fig:ConcaveEndPoint4560}}
 
 %% \begin{figure}
@@ -762,7 +762,7 @@ Figures~\ref{fig:BaselineEndPoint4560} and \ref{fig:ConcaveEndPoint4560} shows t
 Figures~\ref{fig:VoidConcaveReduction1}, \ref{fig:VoidConcaveReduction2} and \ref{fig:VoidConcaveReduction3} shows the stages that the swarm goes through when the concave reduction closes the void. The initial deployment of the baseline and concave reduction swarm are the same~(Figure~\ref{fig:VoidConcaveReduction1}). The concave reduction slowly reduces the void~(Figure~\ref{fig:VoidConcaveReduction2}) and smooths the outer perimeter. Once the smoothing begins the internal anomaly is filled from behind as the inner agents are drawn into the void. This causes small voids to `percolate' outwards through the swarm until they meet an outer perimeter. Two of these `percolating voids' can be seem in~Figure~\ref{fig:VoidConcaveReduction2} to the left of the void and above the void. Once the `percolation' process has completed the void is closed~(Figure~\ref{fig:VoidConcaveReduction3}). The swarm edges also take on a more `rounded' appearance caused by the edges of the swarm being `pulled' to create a convex edge.
 
 %COVERBASELINE4560END1.py
-\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=8cm]{figures/Concave4560-1}
+\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=5cm]{figures/Concave4560-1}
 {Initial\label{fig:VoidConcaveReduction1}}
 
 %% \begin{figure}
@@ -773,7 +773,7 @@ Figures~\ref{fig:VoidConcaveReduction1}, \ref{fig:VoidConcaveReduction2} and \re
 %% \end{figure}
 
 %COVERBASELINE4560END2.py
-\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=8cm]{figures/Concave4560-2}
+\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=5cm]{figures/Concave4560-2}
 {Partial\label{fig:VoidConcaveReduction2}}
 
 %% \begin{figure}
@@ -784,7 +784,7 @@ Figures~\ref{fig:VoidConcaveReduction1}, \ref{fig:VoidConcaveReduction2} and \re
 %% \end{figure}
 
 %COVERBASELINE4560END3.py
-\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=8cm]{figures/Concave4560-3}
+\Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=5cm]{figures/Concave4560-3}
 {Complete\label{fig:VoidConcaveReduction3}}
 
 %% \begin{figure}
