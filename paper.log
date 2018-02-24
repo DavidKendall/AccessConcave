@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  24 FEB 2018 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  24 FEB 2018 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,9 +400,6 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
  (./paper.aux
 
 LaTeX Warning: Label `eq:ConcaveVoidPhysics1' multiply defined.
-
-
-LaTeX Warning: Label `fig:BaselineEndPoint' multiply defined.
 
 )
 \openout1 = `paper.aux'.
@@ -1918,7 +1915,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  6649 strings out of 494953
  102126 string characters out of 6180977
- 161341 words of memory out of 5000000
+ 161340 words of memory out of 5000000
  9717 multiletter control sequences out of 15000+600000
  110628 words of font info for 159 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
@@ -1945,7 +1942,7 @@ share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on paper.pdf (17 pages, 19319897 bytes).
+Output written on paper.pdf (17 pages, 19319785 bytes).
 PDF statistics:
  587 PDF objects out of 1000 (max. 8388607)
  352 compressed objects within 4 object streams
