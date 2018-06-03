@@ -282,6 +282,11 @@ INPUT ./figures/Perimeter1.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
+INPUT figures/Triangulate.pdf
+INPUT ./figures/Triangulate.pdf
+INPUT ./figures/Triangulate.pdf
+INPUT figures/Triangulate.pdf
+INPUT ./figures/Triangulate.pdf
 INPUT notaglineLogo.png
 INPUT ./notaglineLogo.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvbo8t.vf
@@ -292,11 +297,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
-INPUT figures/Triangulate.pdf
-INPUT ./figures/Triangulate.pdf
-INPUT ./figures/Triangulate.pdf
-INPUT figures/Triangulate.pdf
-INPUT ./figures/Triangulate.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm

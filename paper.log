@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.12)  3 JUN 2018 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.12)  3 JUN 2018 14:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -392,11 +392,7 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 \c@definition=\count124
 \c@exampleb=\count125
- (./paper.aux
-
-LaTeX Warning: Label `eq:ConcaveVoidPhysics1' multiply defined.
-
-)
+ (./paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -413,7 +409,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 37.
@@ -686,9 +683,18 @@ File: figures/Perimeter1.pdf Graphic file (type pdf)
 <use figures/Perimeter1.pdf>
 Package pdftex.def Info: figures/Perimeter1.pdf  used on input line 181.
 (pdftex.def)             Requested size: 113.81102pt x 132.77795pt.
+<figures/Triangulate.pdf, id=54, 140.525pt x 150.5625pt>
+File: figures/Triangulate.pdf Graphic file (type pdf)
+<use figures/Triangulate.pdf>
+Package pdftex.def Info: figures/Triangulate.pdf  used on input line 249.
+(pdftex.def)             Requested size: 85.35826pt x 91.45471pt.
+File: figures/Triangulate.pdf Graphic file (type pdf)
+<use figures/Triangulate.pdf>
+Package pdftex.def Info: figures/Triangulate.pdf  used on input line 249.
+(pdftex.def)             Requested size: 85.35826pt x 91.45471pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 247.
+Package pdftex.def Info: notaglineLogo.png  used on input line 261.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -707,21 +713,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [3 <./figures/PerimeterBotsCircle4.pdf> <./figures/PerimeterBotsCircle1.pdf> <.
 /figures/PerimeterBotsCircle2.pdf> <./figures/Perimeter1.pdf>]
-<figures/Triangulate.pdf, id=90, 140.525pt x 150.5625pt>
-File: figures/Triangulate.pdf Graphic file (type pdf)
-<use figures/Triangulate.pdf>
-Package pdftex.def Info: figures/Triangulate.pdf  used on input line 249.
-(pdftex.def)             Requested size: 85.35826pt x 91.45471pt.
-File: figures/Triangulate.pdf Graphic file (type pdf)
-<use figures/Triangulate.pdf>
-Package pdftex.def Info: figures/Triangulate.pdf  used on input line 249.
-(pdftex.def)             Requested size: 85.35826pt x 91.45471pt.
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 269.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-<figures/Perimeter2.pdf, id=91, 158.5925pt x 177.66376pt>
+<figures/Perimeter2.pdf, id=89, 158.5925pt x 177.66376pt>
 File: figures/Perimeter2.pdf Graphic file (type pdf)
 <use figures/Perimeter2.pdf>
 Package pdftex.def Info: figures/Perimeter2.pdf  used on input line 288.
@@ -742,7 +739,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 385.
+Package pdftex.def Info: notaglineLogo.png  used on input line 386.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -764,7 +761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
  []
 
-<figures/VoidConcave1.pdf, id=109, 261.97874pt x 230.8625pt>
+<figures/VoidConcave1.pdf, id=108, 261.97874pt x 230.8625pt>
 File: figures/VoidConcave1.pdf Graphic file (type pdf)
 <use figures/VoidConcave1.pdf>
 Package pdftex.def Info: figures/VoidConcave1.pdf  used on input line 396.
@@ -774,7 +771,7 @@ Underfull \hbox (badness 3724) in paragraph at lines 403--404
 []\T1/ptm/n/n/10 Fig. 18[] and 19[] shows this ef-fect in more de-tail.
  []
 
-<figures/InterAgentEffect1.pdf, id=110, 305.14pt x 195.73125pt>
+<figures/InterAgentEffect1.pdf, id=109, 305.14pt x 195.73125pt>
 File: figures/InterAgentEffect1.pdf Graphic file (type pdf)
 <use figures/InterAgentEffect1.pdf>
 Package pdftex.def Info: figures/InterAgentEffect1.pdf  used on input line 406.
@@ -785,7 +782,7 @@ File: figures/InterAgentEffect1.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/InterAgentEffect1.pdf  used on input line 406.
 
 (pdftex.def)             Requested size: 142.26378pt x 91.256pt.
-<figures/InterAgentEffect2.pdf, id=111, 305.14pt x 223.83624pt>
+<figures/InterAgentEffect2.pdf, id=110, 305.14pt x 223.83624pt>
 File: figures/InterAgentEffect2.pdf Graphic file (type pdf)
 <use figures/InterAgentEffect2.pdf>
 Package pdftex.def Info: figures/InterAgentEffect2.pdf  used on input line 416.
@@ -796,7 +793,7 @@ File: figures/InterAgentEffect2.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/InterAgentEffect2.pdf  used on input line 416.
 
 (pdftex.def)             Requested size: 142.26378pt x 104.35942pt.
-<figures/PerimeterBots4.pdf, id=112, 304.13625pt x 187.70125pt>
+<figures/PerimeterBots4.pdf, id=111, 304.13625pt x 187.70125pt>
 File: figures/PerimeterBots4.pdf Graphic file (type pdf)
 <use figures/PerimeterBots4.pdf>
 Package pdftex.def Info: figures/PerimeterBots4.pdf  used on input line 429.
@@ -805,7 +802,7 @@ File: figures/PerimeterBots4.pdf Graphic file (type pdf)
 <use figures/PerimeterBots4.pdf>
 Package pdftex.def Info: figures/PerimeterBots4.pdf  used on input line 429.
 (pdftex.def)             Requested size: 113.81102pt x 70.23886pt.
-<figures/PerimeterBots5.pdf, id=113, 357.335pt x 187.70125pt>
+<figures/PerimeterBots5.pdf, id=112, 357.335pt x 187.70125pt>
 File: figures/PerimeterBots5.pdf Graphic file (type pdf)
 <use figures/PerimeterBots5.pdf>
 Package pdftex.def Info: figures/PerimeterBots5.pdf  used on input line 439.
@@ -884,7 +881,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 497--497
 []|\T1/ptm/m/n/8 Neighbour
  []
 
-<figures/BaselineConcaveEffectDist.pdf, id=141, 1363.0925pt x 717.68124pt>
+<figures/BaselineConcaveEffectDist.pdf, id=140, 1363.0925pt x 717.68124pt>
 File: figures/BaselineConcaveEffectDist.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectDist.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectDist.pdf  used on input l
@@ -1808,14 +1805,11 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
  6608 strings out of 494847
  103309 string characters out of 6179080
- 159345 words of memory out of 5000000
+ 159306 words of memory out of 5000000
  9713 multiletter control sequences out of 15000+600000
  110628 words of font info for 159 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
@@ -1842,7 +1836,7 @@ share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on paper.pdf (17 pages, 19319300 bytes).
+Output written on paper.pdf (17 pages, 19319066 bytes).
 PDF statistics:
  587 PDF objects out of 1000 (max. 8388607)
  352 compressed objects within 4 object streams
