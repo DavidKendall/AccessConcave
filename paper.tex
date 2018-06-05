@@ -72,7 +72,7 @@ Swarming, Swarm Dynamics, Mobile Sensor Networks, Algorithms.
 \titlepgskip=-15pt
 \maketitle
 
-\section{Swarm coordination - concave reduction}\label{chapter:ConcaveReduction}
+\section{Introduction}\label{sec:ConcaveReduction}
 When cohesion and repulsion (\textit{inter-agent vectors}) are the only field effects creating a swarming effect the number of stable structures that can develop is limited. These structures are either straight edges or partial lattices. Partial lattices can create concave anomalies (dents) and convex anomalies (peaks) in a perimeter~(Fig.~\ref{concave:SwarmStableShape1}). An anomaly is any construct within the swarm that is not a hexagonal lattice or an agent distribution that causes the swarm to deviate from having only convex or flat edges. 
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=5cm]{figures/SwarmStableShape1}
@@ -91,10 +91,14 @@ The problem with these anomalies is that although they are stable due to the bal
 
 The technique defined in this paper functions without the need for inter-agent or global messaging and is implemented at the local agent level through proximity detection.
 
+\section{Related Work}\label{sec:RelatedWork}
+
 Researchers have identified several approaches to resolving swarm structure issues. A prototype framework for self healing swarms was developed by Dai et al.~\cite{DHMRZ:06} which considered the problem of agent failure in hostile environments. This is in line with work carried out by Vassev and Hinchey~\cite{VH:09} who model swarm deployment using ASSL (Autonomic System Specification Language). This technique was used by NASA (National Aeronautics and Space Administration) when developing their ANTS (Autonomous Nano Technology Swarm) for use in asteroid belt exploration. This line of research is more focused towards an agent's internal systems failure rather than the removal of anomalies in a swarm distribution. Roach et al. \cite{RMT:15} take a different approach and focus on the effects of sensor failure and the effect that has on agent distribution. The closest research to concave reduction as discusssed in this paper is that of Lee and Chong \cite{GN:08} who identify the issue of concave edges within swarms in an attempt to create regular lattice formations. The main focus of their paper is the restructuring of the internal distribution of inter-agent formations. The research by Ismail and Timmis \cite{IT:10} used the approach of \textit{bio-inspired} healing using \textit{granuloma formation}, a biological method for encapsulating an antigen.
 
 Concave reduction is an extension of the work discussed by Ismail and Timmis in their paper on `self-healing' \cite{IT:10} and Lee and Chong's work on identifying concave edges~\cite{GN:08}. The technique also draws on the work of McLurkin and Demaine who have developed algorithms to detect perimeter types~\cite{MD:09}, although this paper does not identify the perimeter types as this would require a communications infrastructure.
- 
+
+\section{Concave reduction}\label{sec:ConcaveReduction}
+
 In a 3D space a sphere provides maximum volume with the minimum surface area and in a 2D Euclidean plane a circle provides maximum area with the minimum perimeter size. Both of these facts indicate that a perimeter should be tending towards a structure where its outer edges are convex in nature. 
 
 Agents are identified as being perimeter based if they comply with a set of conditions. The conditions are: 
@@ -107,7 +111,7 @@ These conditions create an identifiable set of agents that create a perimeter.
 
 This process detects both the outer edge of a swarm and any internal features~(voids) that satisfy the same set of conditions. It is therefore possible to have both voids and islands of agents within the same swarm. Voids are best defined as perimeters that are concave in nature and inside another perimeter. McLurkin describes two types of perimeters convex and concave~\cite{MD:09}. A convex perimeter is an edge where the average angle of the agent's exposed faces are~$< 180^\circ$. A concave perimeter is where the average exposed angle is~$> 180^\circ$.
  
-When discussing concave reduction the concave angle of interest is the relationship between an agent and two of its adjacent neighbours such that the neighbours have no visibility of each other and the neighbour-agent-neighbour relationship produces an angle~$< 180^\circ$. This is unrelated to the aggregate angle used to identify the perimeter type that the agent is a member of. Concave reduction therefore affects both inner~(Fig.~\ref{fig:InnerPerimeter1}) and outer~(Fig.~\ref{fig:OuterPerimeter1}) perimeter agents. Fig.~\ref{fig:OuterPerimeter1} and \ref{fig:InnerPerimeter1} show candidate agents identified by this process in black. 
+When discussing \textit{concave reduction} the concave angle of interest is the relationship between an agent and two of its adjacent neighbours such that the neighbours have no visibility of each other and the neighbour-agent-neighbour relationship produces an angle~$< 180^\circ$. This is unrelated to the aggregate angle used to identify the perimeter type that the agent is a member of. Concave reduction therefore affects both inner~(Fig.~\ref{fig:InnerPerimeter1}) and outer~(Fig.~\ref{fig:OuterPerimeter1}) perimeter agents. Fig.~\ref{fig:OuterPerimeter1} and \ref{fig:InnerPerimeter1} show candidate agents identified by this process in black. 
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=4cm]{figures/OuterPerimeter1}
 {Outer Perimeter\label{fig:OuterPerimeter1}}
@@ -129,7 +133,7 @@ When discussing concave reduction the concave angle of interest is the relations
 %% \caption{Inner Perimeter\label{fig:InnerPerimeter1}}
 %% \end{figure}
 
-The purpose of concave reduction is to alter the overall structure of the swarm by replacing the calculated \textit{movement-direction vector} on anomalous perimeter agents. These perimeter based changes cause a cascading movement within the swarm as non-perimeter based agent's \textit{interaction vectors} attempting to move towards a position of equilibrium to their neighbours. The movement of the concave-perimeter~(internal void) agents creates a tendency for the void to be removed~(Fig.~\ref{fig:InnerPerimeter2}~and~\ref{fig:InnerPerimeter3}) by percolating the void out of the swarm. On the outer perimeter deformities (indents) are straightened~(Fig.~\ref{fig:OuterPerimeter3}) and eventually a perimeter agent and its neighbours will tend towards creating a convex edge.
+The purpose of \textit{concave reduction} is to alter the overall structure of the swarm by replacing the calculated \textit{movement-direction vector} on anomalous perimeter agents. These perimeter based changes cause a cascading movement within the swarm as non-perimeter based agent's \textit{interaction vectors} attempting to move towards a position of equilibrium to their neighbours. The movement of the concave-perimeter~(internal void) agents creates a tendency for the void to be removed~(Fig.~\ref{fig:InnerPerimeter2}~and~\ref{fig:InnerPerimeter3}) by percolating the void out of the swarm. On the outer perimeter deformities (indents) are straightened~(Fig.~\ref{fig:OuterPerimeter3}) and eventually a perimeter agent and its neighbours will tend towards creating a convex edge.
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=4cm]{figures/PerimeterBotsCircle3}
 {Inner Perimeter\label{fig:InnerPerimeter2}}
