@@ -146,7 +146,7 @@ The purpose of \textit{concave reduction} is to alter the overall structure of t
 %% \end{figure}
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=4cm]{figures/PerimeterBotsCircle4}
-{Void reduction result\label{fig:InnerPerimeter3}}
+{Concave reduction result\label{fig:InnerPerimeter3}}
 
 %% \begin{figure}
 %% \begin{center}
@@ -156,7 +156,7 @@ The purpose of \textit{concave reduction} is to alter the overall structure of t
 %% \end{figure}
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=4cm]{figures/PerimeterBotsCircle1}
-{Outer Perimeter\label{fig:OuterPerimeter2}}
+{Outer Perimeter (swarm without voids)\label{fig:OuterPerimeter2}}
 
 %% \begin{figure}
 %% \begin{center}
@@ -166,7 +166,7 @@ The purpose of \textit{concave reduction} is to alter the overall structure of t
 %% \end{figure}
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=4cm]{figures/PerimeterBotsCircle2}
-{Void reduction result\label{fig:OuterPerimeter3}}
+{Concave reduction result (swarm without voids)\label{fig:OuterPerimeter3}}
 
 %% \begin{figure}
 %% \begin{center}
@@ -176,7 +176,7 @@ The purpose of \textit{concave reduction} is to alter the overall structure of t
 %% \end{figure}
 
 \section{Concave reduction implementation}\label{sec:ConcaveReductionImp}
-Detection of a swarm's perimeter can be used for several swarming effects in addition to concave reduction such as reducing the sensor requirements to coordinate a swarm to a destination. Identifying agents that are suitable for concave reduction involves the same conditional checks as the perimeter detection algorithm with the addition of a status check on the \textit{cyclic-angular-check} component. 
+A swarm's perimeter can be used to modify its behaviour, such as reducing the sensor requirements to coordinate a swarm to a destination. Identifying agents that are suitable for concave reduction involves the same conditional checks as the perimeter detection algorithm with the addition of a status check on the \textit{cyclic-angular-check} component. 
 
 \subsection{Full-perimeter coordinator detection}\label{sec:PerimeterAgentDetection} 
 The process of detecting a perimeter agent involves several steps. Primarily it involves identifying agents that are not surrounded by interconnected neighbours~(Fig.~\ref{reduced:Perimeter1}). The processes are discussed in more detail below: 

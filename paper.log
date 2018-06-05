@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.12)  5 JUN 2018 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.12)  5 JUN 2018 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -655,7 +655,7 @@ Package pdftex.def Info: figures/PerimeterBotsCircle2.pdf  used on input line 1
 <notaglineLogo.png, id=27, 169.38281pt x 42.91031pt>
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 180.
+Package pdftex.def Info: notaglineLogo.png  used on input line 181.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1839,7 +1839,7 @@ share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on paper.pdf (17 pages, 19319176 bytes).
+Output written on paper.pdf (17 pages, 19319160 bytes).
 PDF statistics:
  587 PDF objects out of 1000 (max. 8388607)
  352 compressed objects within 4 object streams
