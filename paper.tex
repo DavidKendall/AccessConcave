@@ -17,9 +17,9 @@
 %\usepackage{becs}
 \usepackage{listings}
 \lstset{%
-  basicstyle=\tiny,
+  basicstyle=\normalsize,
   numbers=left,
-  numberstyle=\tiny,
+  numberstyle=\normalsize,
   stepnumber=1,
   xleftmargin=2em
 }
@@ -194,8 +194,8 @@ The process of detecting a perimeter agent involves several steps. Primarily it 
 The first check is a short circuit count of the number of neighbours. If an agent has $\leq 4$ neighbours and the swarm parameters are for a hexagonal swarm configuration then the agent is a perimeter agent and therefore a coordinator. This identification process is shown in~Fig.~\ref{algo:SmallNeighbourCount}. 
 
 \begin{figure}
-\begin{algorithmic}
-\tiny
+\begin{algorithmic}[1]
+%\tiny
 \Procedure{SmallNeighbourCount}{$b$}
 \If{$|nbr(b)| \leq 4$}
    \State\textbf{return} $True$
@@ -226,8 +226,8 @@ Equation~\eqref{eq:ConcaveVoidPhysics1} generates the dictionary set of all the 
 Fig. \ref{algo:getNeighbourAngles} shows the logic to produce the sorted neighbour/angle dictionary. $sort(.)$ sorts the dictionary set generated in~\eqref{eq:ConcaveVoidPhysics1} by ascending angle to produce a dictionary of neighbour agents with their relative angle to the first detected neighbour as shown in~Fig.~\ref{reduced:Perimeter1}.
 
 \begin{figure}
-\begin{algorithmic}
-\tiny
+\begin{algorithmic}[1]
+%\tiny
 \Procedure{NeighbourAngle}{$b$}
 \State $angles \leftarrow \emptyset$
 \For{$b^{'}\in b.neighbours$}
@@ -267,8 +267,8 @@ z = \sqrt{x^2 + y^2 - 2xy~\cos(\theta)}
 The full visibility check~(Fig.~\ref{algo:CheckVisibility}) takes each pair in turn and using the cosine rule~\eqref{eq:CosineRule1} checks for a `visibility gap'. 
 
 \begin{figure}
-\begin{algorithmic}
-\tiny
+\begin{algorithmic}[1]
+%\tiny
 \Procedure{CheckVisibility}{$b,angles$}
 \For{$i \leftarrow 0~\texttt{To}~size(angles)-1$}
 	\If{i == size(angles)-1}
@@ -301,8 +301,8 @@ There is one exception to the neighbour visibility check. Due to compression of 
 This phenomenon requires the detection process to identify the angles that all the agents create from an arbitrary point, in this case the first identified neighbour. The neighbours must then be checked to determine if any neighbour pair create an angle $> 180^\circ$~(Fig.~\ref{reduced:Perimeter1}~Fig.~\ref{algo:CheckConvex}). This process includes a short circuit in that as soon as a gap is found the check terminates. 
 
 \begin{figure}
-\begin{algorithmic}
-\tiny
+\begin{algorithmic}[1]
+%\tiny
 \Procedure{CheckConvex}{$angles$}
 \For{$i \leftarrow 0~\texttt{To}~size(angles)-1$}
 	\If{i == size(angles)-1}
@@ -324,8 +324,8 @@ This phenomenon requires the detection process to identify the angles that all t
 The complete perimeter detection algorithm using this `cyclic-angular-neighbour-check' methodology is show in~Fig.~\ref{algo:CheckPerimeter}. The first part of the algorithm is the short circuit check~(\textit{SmallNeighbourCount(b)}). This is only followed by the visibility check (\textit{CheckVisibility(b,angles)}) if the short circuit fails. If the visibility check is confirmed, which is another short circuit method, the convex check is carried out~(\textit{CheckConvex(angles)}). This sequence ensures the minimum computational overhead for the agent check. 
 
 \begin{figure}
-\begin{algorithmic}
-\tiny
+\begin{algorithmic}[1]
+%\tiny
 \Procedure{CheckPerimeter}{$b,S$}
 \If{SmallNeighbourCount(b,S)}
 	\State\textbf{return} $True$
@@ -352,8 +352,8 @@ To implement void reduction full perimeter detection is required. Concave reduct
 The implementation of concave reduction identification is incorporated into the perimeter detection algorithm as shown in Fig.~\ref{algo:checkVisibility2}.\\
 
 \begin{figure}
-\begin{algorithmic}
-\tiny
+\begin{algorithmic}[1]
+%\tiny
 \Procedure{CheckVisibility}{$b,angles$}
 \State $b.gap \leftarrow \emptyset$
 \State $b.concave = False$
@@ -1135,7 +1135,7 @@ This paper demonstrates by experiment that by altering the vector calculations f
 
 \bibliographystyle{plain}
 \bibliography{thesis}
-
+\newpage
 \begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{Images/eliot}}]{Neil Eliot}
 has been a Senior Lecturer at Northumbria University since 1998.  Neil was awarded his Ph.D. from Northumbria in 2017, his Pg.C. in 1994, and his B.Sc. in 1989 all in Computing. His research areas include swarm theory and cybersecurity. Prior to this Neil worked in the chemical industry and the NHS. 
 \end{IEEEbiography}
