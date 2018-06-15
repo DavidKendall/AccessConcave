@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex paper"] 1528359319 "paper.aux" "paper.bbl" "paper" 1528359507
+["bibtex paper"] 1529073649 "paper.aux" "paper.bbl" "paper" 1529073649
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "paper.aux" 1528359506 13202 7ef49b7248767d89a1ed370ba99ce1d6 ""
+  "paper.aux" 1529073649 13213 1d86334a38538a1f4d92b3dc5123e374 ""
   "paper.bcf" 0 -1 0 ""
   "thesis.bib" 1528029126 170800 413c3f6d2dd0dd80d0bc0c6dd710baef ""
   (generated)
   "paper.blg"
   "paper.bbl"
-["pdflatex"] 1528359506 "/home/neil/neil@eliot.org.uk/NE-PhD/Writeup/Journal/IEEE/ConcaveReduction/paper.tex" "paper.pdf" "paper" 1528359507
+["pdflatex"] 1529073649 "/home/neil/neil@eliot.org.uk/NE-PhD/Writeup/Journal/IEEE/ConcaveReduction/paper.tex" "paper.pdf" "paper" 1529073649
   "/etc/texmf/web2c/texmf.cnf" 1521388104 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/neil/neil@eliot.org.uk/NE-PhD/Writeup/Journal/IEEE/ConcaveReduction/paper.tex" 1528359506 79253 1a611445bda9d0d75277739f63e42374 ""
+  "/home/neil/neil@eliot.org.uk/NE-PhD/Writeup/Journal/IEEE/ConcaveReduction/paper.tex" 1529073648 79201 da20deb071daa249696858070103b5ca ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1480098688 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -203,10 +203,10 @@
   "figures/VoidConcave1.pdf" 1519380750 13378 150a8a4d5d14fddf4f71b8e0d4eaf895 ""
   "ieeeaccess.cls" 1519301226 43839 3abf959902254cbaf82e6ce14f087bf5 ""
   "notaglineLogo.png" 1519301226 3150 e273b7aed356b5f76c6d0b072166d68c ""
-  "paper.aux" 1528359506 13202 7ef49b7248767d89a1ed370ba99ce1d6 ""
-  "paper.bbl" 1528359319 3145 1058b7298dc5139036dddb71473f4b42 "bibtex paper"
-  "paper.tex" 1528359506 79253 1a611445bda9d0d75277739f63e42374 ""
+  "paper.aux" 1529073649 13213 1d86334a38538a1f4d92b3dc5123e374 ""
+  "paper.bbl" 1529073649 3145 1058b7298dc5139036dddb71473f4b42 "bibtex paper"
+  "paper.tex" 1529073648 79201 da20deb071daa249696858070103b5ca ""
   (generated)
-  "paper.log"
   "paper.pdf"
   "paper.aux"
+  "paper.log"

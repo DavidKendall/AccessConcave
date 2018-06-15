@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.12)  7 JUN 2018 09:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.12)  15 JUN 2018 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -559,7 +559,7 @@ Underfull \vbox (badness 1014) has occurred while \output is active []
 <Logo.png, id=5, 206.27063pt x 53.44969pt>
 File: Logo.png Graphic file (type png)
 <use Logo.png>
-Package pdftex.def Info: Logo.png  used on input line 97.
+Package pdftex.def Info: Logo.png  used on input line 96.
 (pdftex.def)             Requested size: 91.32pt x 23.66309pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -588,23 +588,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 <figures/OuterPerimeter1.pdf, id=21, 369.38pt x 461.725pt>
 File: figures/OuterPerimeter1.pdf Graphic file (type pdf)
 <use figures/OuterPerimeter1.pdf>
-Package pdftex.def Info: figures/OuterPerimeter1.pdf  used on input line 117.
+Package pdftex.def Info: figures/OuterPerimeter1.pdf  used on input line 115.
 (pdftex.def)             Requested size: 113.81102pt x 142.25964pt.
 File: figures/OuterPerimeter1.pdf Graphic file (type pdf)
 <use figures/OuterPerimeter1.pdf>
-Package pdftex.def Info: figures/OuterPerimeter1.pdf  used on input line 117.
+Package pdftex.def Info: figures/OuterPerimeter1.pdf  used on input line 115.
 (pdftex.def)             Requested size: 113.81102pt x 142.25964pt.
 <figures/InnerPerimeter1.pdf, id=22, 369.38pt x 461.725pt>
 File: figures/InnerPerimeter1.pdf Graphic file (type pdf)
 <use figures/InnerPerimeter1.pdf>
-Package pdftex.def Info: figures/InnerPerimeter1.pdf  used on input line 127.
+Package pdftex.def Info: figures/InnerPerimeter1.pdf  used on input line 125.
 (pdftex.def)             Requested size: 113.81102pt x 142.25964pt.
 File: figures/InnerPerimeter1.pdf Graphic file (type pdf)
 <use figures/InnerPerimeter1.pdf>
-Package pdftex.def Info: figures/InnerPerimeter1.pdf  used on input line 127.
+Package pdftex.def Info: figures/InnerPerimeter1.pdf  used on input line 125.
 (pdftex.def)             Requested size: 113.81102pt x 142.25964pt.
 
-Underfull \hbox (badness 1655) in paragraph at lines 136--137
+Underfull \hbox (badness 1655) in paragraph at lines 134--135
 \T1/ptm/n/n/10 all struc-ture of the swarm by re-plac-ing the cal-cu-lated
  []
 
@@ -612,50 +612,50 @@ Underfull \hbox (badness 1655) in paragraph at lines 136--137
 File: figures/PerimeterBotsCircle3.pdf Graphic file (type pdf)
 <use figures/PerimeterBotsCircle3.pdf>
 Package pdftex.def Info: figures/PerimeterBotsCircle3.pdf  used on input line 1
-39.
+37.
 (pdftex.def)             Requested size: 113.81102pt x 142.25964pt.
 File: figures/PerimeterBotsCircle3.pdf Graphic file (type pdf)
 <use figures/PerimeterBotsCircle3.pdf>
 Package pdftex.def Info: figures/PerimeterBotsCircle3.pdf  used on input line 1
-39.
+37.
 (pdftex.def)             Requested size: 113.81102pt x 142.25964pt.
 <figures/PerimeterBotsCircle4.pdf, id=24, 357.335pt x 460.72125pt>
 File: figures/PerimeterBotsCircle4.pdf Graphic file (type pdf)
 <use figures/PerimeterBotsCircle4.pdf>
 Package pdftex.def Info: figures/PerimeterBotsCircle4.pdf  used on input line 1
-49.
+47.
 (pdftex.def)             Requested size: 113.81102pt x 146.73784pt.
 File: figures/PerimeterBotsCircle4.pdf Graphic file (type pdf)
 <use figures/PerimeterBotsCircle4.pdf>
 Package pdftex.def Info: figures/PerimeterBotsCircle4.pdf  used on input line 1
-49.
+47.
 (pdftex.def)             Requested size: 113.81102pt x 146.73784pt.
 <figures/PerimeterBotsCircle1.pdf, id=25, 369.38pt x 464.73625pt>
 File: figures/PerimeterBotsCircle1.pdf Graphic file (type pdf)
 <use figures/PerimeterBotsCircle1.pdf>
 Package pdftex.def Info: figures/PerimeterBotsCircle1.pdf  used on input line 1
-59.
+57.
 (pdftex.def)             Requested size: 113.81102pt x 143.18742pt.
 File: figures/PerimeterBotsCircle1.pdf Graphic file (type pdf)
 <use figures/PerimeterBotsCircle1.pdf>
 Package pdftex.def Info: figures/PerimeterBotsCircle1.pdf  used on input line 1
-59.
+57.
 (pdftex.def)             Requested size: 113.81102pt x 143.18742pt.
 <figures/PerimeterBotsCircle2.pdf, id=26, 368.37625pt x 467.7475pt>
 File: figures/PerimeterBotsCircle2.pdf Graphic file (type pdf)
 <use figures/PerimeterBotsCircle2.pdf>
 Package pdftex.def Info: figures/PerimeterBotsCircle2.pdf  used on input line 1
-69.
+67.
 (pdftex.def)             Requested size: 113.81102pt x 144.50775pt.
 File: figures/PerimeterBotsCircle2.pdf Graphic file (type pdf)
 <use figures/PerimeterBotsCircle2.pdf>
 Package pdftex.def Info: figures/PerimeterBotsCircle2.pdf  used on input line 1
-69.
+67.
 (pdftex.def)             Requested size: 113.81102pt x 144.50775pt.
 <notaglineLogo.png, id=27, 169.38281pt x 42.91031pt>
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 181.
+Package pdftex.def Info: notaglineLogo.png  used on input line 178.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -677,20 +677,20 @@ ter1.pdf> <./figures/PerimeterBotsCircle3.pdf>]
 <figures/Perimeter1.pdf, id=53, 192.72pt x 224.84pt>
 File: figures/Perimeter1.pdf Graphic file (type pdf)
 <use figures/Perimeter1.pdf>
-Package pdftex.def Info: figures/Perimeter1.pdf  used on input line 185.
+Package pdftex.def Info: figures/Perimeter1.pdf  used on input line 183.
 (pdftex.def)             Requested size: 113.81102pt x 132.77795pt.
 File: figures/Perimeter1.pdf Graphic file (type pdf)
 <use figures/Perimeter1.pdf>
-Package pdftex.def Info: figures/Perimeter1.pdf  used on input line 185.
+Package pdftex.def Info: figures/Perimeter1.pdf  used on input line 183.
 (pdftex.def)             Requested size: 113.81102pt x 132.77795pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 [] $\OML/cmm/m/it/10 newAngle \OT1/cmr/m/n/10 =
  []
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 250.
+Package pdftex.def Info: notaglineLogo.png  used on input line 247.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -712,18 +712,18 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 <figures/Triangulate.pdf, id=85, 140.525pt x 150.5625pt>
 File: figures/Triangulate.pdf Graphic file (type pdf)
 <use figures/Triangulate.pdf>
-Package pdftex.def Info: figures/Triangulate.pdf  used on input line 253.
+Package pdftex.def Info: figures/Triangulate.pdf  used on input line 251.
 (pdftex.def)             Requested size: 85.35826pt x 91.45471pt.
 File: figures/Triangulate.pdf Graphic file (type pdf)
 <use figures/Triangulate.pdf>
-Package pdftex.def Info: figures/Triangulate.pdf  used on input line 253.
+Package pdftex.def Info: figures/Triangulate.pdf  used on input line 251.
 (pdftex.def)             Requested size: 85.35826pt x 91.45471pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 273.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 271.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 [] \T1/ptm/b/n/10 if $\OML/cmm/m/it/10 cosrule\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  b; angles\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 size\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 angles\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@
@@ -732,20 +732,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 <figures/Perimeter2.pdf, id=86, 158.5925pt x 177.66376pt>
 File: figures/Perimeter2.pdf Graphic file (type pdf)
 <use figures/Perimeter2.pdf>
-Package pdftex.def Info: figures/Perimeter2.pdf  used on input line 292.
+Package pdftex.def Info: figures/Perimeter2.pdf  used on input line 290.
 (pdftex.def)             Requested size: 113.81102pt x 127.50032pt.
 File: figures/Perimeter2.pdf Graphic file (type pdf)
 <use figures/Perimeter2.pdf>
-Package pdftex.def Info: figures/Perimeter2.pdf  used on input line 292.
+Package pdftex.def Info: figures/Perimeter2.pdf  used on input line 290.
 (pdftex.def)             Requested size: 113.81102pt x 127.50032pt.
 
-Underfull \hbox (badness 8075) in paragraph at lines 324--325
+Underfull \hbox (badness 8075) in paragraph at lines 322--323
 []\T1/ptm/n/n/10 The com-plete perime-ter de-tec-tion al-go-rithm us-ing
  []
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 351.
+Package pdftex.def Info: notaglineLogo.png  used on input line 349.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -763,64 +763,64 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [4 <./figures/Triangulate.pdf> <./figures/Perimeter2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 [] \T1/ptm/b/n/10 if $\OML/cmm/m/it/10 cosrule\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  b; angles\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 size\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 angles\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 [] \T1/ptm/b/n/10 if $\OML/cmm/m/it/10 angle\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 b
 ; angles\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 size\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  angles\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
 <figures/VoidConcave1.pdf, id=106, 261.97874pt x 230.8625pt>
 File: figures/VoidConcave1.pdf Graphic file (type pdf)
 <use figures/VoidConcave1.pdf>
-Package pdftex.def Info: figures/VoidConcave1.pdf  used on input line 400.
+Package pdftex.def Info: figures/VoidConcave1.pdf  used on input line 398.
 (pdftex.def)             Requested size: 142.26378pt x 125.36841pt.
 
-Underfull \hbox (badness 3724) in paragraph at lines 407--408
+Underfull \hbox (badness 3724) in paragraph at lines 405--406
 []\T1/ptm/n/n/10 Fig. 18[] and 19[] shows this ef-fect in more de-tail.
  []
 
 <figures/InterAgentEffect1.pdf, id=107, 305.14pt x 195.73125pt>
 File: figures/InterAgentEffect1.pdf Graphic file (type pdf)
 <use figures/InterAgentEffect1.pdf>
-Package pdftex.def Info: figures/InterAgentEffect1.pdf  used on input line 410.
+Package pdftex.def Info: figures/InterAgentEffect1.pdf  used on input line 408.
 
 (pdftex.def)             Requested size: 142.26378pt x 91.256pt.
 File: figures/InterAgentEffect1.pdf Graphic file (type pdf)
 <use figures/InterAgentEffect1.pdf>
-Package pdftex.def Info: figures/InterAgentEffect1.pdf  used on input line 410.
+Package pdftex.def Info: figures/InterAgentEffect1.pdf  used on input line 408.
 
 (pdftex.def)             Requested size: 142.26378pt x 91.256pt.
 <figures/InterAgentEffect2.pdf, id=108, 305.14pt x 223.83624pt>
 File: figures/InterAgentEffect2.pdf Graphic file (type pdf)
 <use figures/InterAgentEffect2.pdf>
-Package pdftex.def Info: figures/InterAgentEffect2.pdf  used on input line 420.
+Package pdftex.def Info: figures/InterAgentEffect2.pdf  used on input line 418.
 
 (pdftex.def)             Requested size: 142.26378pt x 104.35942pt.
 File: figures/InterAgentEffect2.pdf Graphic file (type pdf)
 <use figures/InterAgentEffect2.pdf>
-Package pdftex.def Info: figures/InterAgentEffect2.pdf  used on input line 420.
+Package pdftex.def Info: figures/InterAgentEffect2.pdf  used on input line 418.
 
 (pdftex.def)             Requested size: 142.26378pt x 104.35942pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 431.
+Package pdftex.def Info: notaglineLogo.png  used on input line 429.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -841,44 +841,49 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 <figures/PerimeterBots4.pdf, id=124, 304.13625pt x 187.70125pt>
 File: figures/PerimeterBots4.pdf Graphic file (type pdf)
 <use figures/PerimeterBots4.pdf>
-Package pdftex.def Info: figures/PerimeterBots4.pdf  used on input line 433.
+Package pdftex.def Info: figures/PerimeterBots4.pdf  used on input line 431.
 (pdftex.def)             Requested size: 113.81102pt x 70.23886pt.
 File: figures/PerimeterBots4.pdf Graphic file (type pdf)
 <use figures/PerimeterBots4.pdf>
-Package pdftex.def Info: figures/PerimeterBots4.pdf  used on input line 433.
+Package pdftex.def Info: figures/PerimeterBots4.pdf  used on input line 431.
 (pdftex.def)             Requested size: 113.81102pt x 70.23886pt.
 <figures/PerimeterBots5.pdf, id=125, 357.335pt x 187.70125pt>
 File: figures/PerimeterBots5.pdf Graphic file (type pdf)
 <use figures/PerimeterBots5.pdf>
-Package pdftex.def Info: figures/PerimeterBots5.pdf  used on input line 443.
+Package pdftex.def Info: figures/PerimeterBots5.pdf  used on input line 441.
 (pdftex.def)             Requested size: 142.26378pt x 74.72688pt.
 File: figures/PerimeterBots5.pdf Graphic file (type pdf)
 <use figures/PerimeterBots5.pdf>
-Package pdftex.def Info: figures/PerimeterBots5.pdf  used on input line 443.
+Package pdftex.def Info: figures/PerimeterBots5.pdf  used on input line 441.
 (pdftex.def)             Requested size: 142.26378pt x 74.72688pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 []|\T1/ptm/b/n/8 Weight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 []|\T1/ptm/b/n/8 Baseline
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 []|\T1/ptm/b/n/8 Concave
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--496
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 []|\T1/ptm/m/n/8 weight ad-juster for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--496
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 \T1/ptm/m/n/8 con-cave re-duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]|\T1/ptm/m/n/8 weight ad-juster for
  []
 
 
@@ -887,28 +892,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 497--497
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
-[]|\T1/ptm/m/n/8 weight ad-juster for
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 499--499
+Underfull \hbox (badness 3907) in paragraph at lines 497--497
 \T1/ptm/m/n/8 des-ti-na-tion vec-tor 0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
 []|\T1/ptm/m/n/8 Repulsion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 []|\T1/ptm/m/n/8 Neighbour
  []
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 508.
+Package pdftex.def Info: notaglineLogo.png  used on input line 506.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -931,38 +931,38 @@ PerimeterBots5.pdf>]
 File: figures/BaselineConcaveEffectDist.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectDist.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectDist.pdf  used on input l
-ine 511.
+ine 509.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcaveEffectDist.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectDist.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectDist.pdf  used on input l
-ine 511.
+ine 509.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/BaselineConcaveEffectMag.pdf, id=153, 1363.0925pt x 717.68124pt>
 File: figures/BaselineConcaveEffectMag.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectMag.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectMag.pdf  used on input li
-ne 526.
+ne 524.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcaveEffectMag.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectMag.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectMag.pdf  used on input li
-ne 526.
+ne 524.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/BaselineConcavePerimeter.pdf, id=154, 1363.0925pt x 717.68124pt>
 File: figures/BaselineConcavePerimeter.pdf Graphic file (type pdf)
 <use figures/BaselineConcavePerimeter.pdf>
 Package pdftex.def Info: figures/BaselineConcavePerimeter.pdf  used on input li
-ne 539.
+ne 537.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcavePerimeter.pdf Graphic file (type pdf)
 <use figures/BaselineConcavePerimeter.pdf>
 Package pdftex.def Info: figures/BaselineConcavePerimeter.pdf  used on input li
-ne 539.
+ne 537.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 549.
+Package pdftex.def Info: notaglineLogo.png  used on input line 547.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -985,69 +985,74 @@ g.pdf> <./figures/BaselineConcavePerimeter.pdf>]
 File: figures/OuterPerimeterJitter1.pdf Graphic file (type pdf)
 <use figures/OuterPerimeterJitter1.pdf>
 Package pdftex.def Info: figures/OuterPerimeterJitter1.pdf  used on input line 
-551.
+549.
 (pdftex.def)             Requested size: 142.26378pt x 121.76274pt.
 File: figures/OuterPerimeterJitter1.pdf Graphic file (type pdf)
 <use figures/OuterPerimeterJitter1.pdf>
 Package pdftex.def Info: figures/OuterPerimeterJitter1.pdf  used on input line 
-551.
+549.
 (pdftex.def)             Requested size: 142.26378pt x 121.76274pt.
 <figures/OuterPerimeterJitter2.pdf, id=178, 456.70625pt x 392.46625pt>
 File: figures/OuterPerimeterJitter2.pdf Graphic file (type pdf)
 <use figures/OuterPerimeterJitter2.pdf>
 Package pdftex.def Info: figures/OuterPerimeterJitter2.pdf  used on input line 
-561.
+559.
 (pdftex.def)             Requested size: 142.26378pt x 122.25015pt.
 File: figures/OuterPerimeterJitter2.pdf Graphic file (type pdf)
 <use figures/OuterPerimeterJitter2.pdf>
 Package pdftex.def Info: figures/OuterPerimeterJitter2.pdf  used on input line 
-561.
+559.
 (pdftex.def)             Requested size: 142.26378pt x 122.25015pt.
 <figures/BaselineConcaveEffectPath1.pdf, id=179, 1363.0925pt x 717.68124pt>
 File: figures/BaselineConcaveEffectPath1.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectPath1.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectPath1.pdf  used on input 
-line 574.
+line 572.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcaveEffectPath1.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectPath1.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectPath1.pdf  used on input 
-line 574.
+line 572.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/BaselineConcaveEffectPath2.pdf, id=180, 1363.0925pt x 717.68124pt>
 File: figures/BaselineConcaveEffectPath2.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectPath2.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectPath2.pdf  used on input 
-line 587.
+line 585.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcaveEffectPath2.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectPath2.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectPath2.pdf  used on input 
-line 587.
+line 585.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 602--602
 []|\T1/ptm/b/n/8 Weight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 602--602
 []|\T1/ptm/b/n/8 Baseline
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 602--602
 []|\T1/ptm/b/n/8 Concave
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 []|\T1/ptm/m/n/8 weight ad-juster for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 \T1/ptm/m/n/8 con-cave re-duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
+[]|\T1/ptm/m/n/8 weight ad-juster for
  []
 
 
@@ -1056,28 +1061,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 607--607
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--609
-[]|\T1/ptm/m/n/8 weight ad-juster for
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 609--609
+Underfull \hbox (badness 3907) in paragraph at lines 607--607
 \T1/ptm/m/n/8 des-ti-na-tion vec-tor 0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
 []|\T1/ptm/m/n/8 Repulsion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
 []|\T1/ptm/m/n/8 Neighbour
  []
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 618.
+Package pdftex.def Info: notaglineLogo.png  used on input line 616.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1101,75 +1101,75 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 File: figures/BaselineConcaveEffectDist8060.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectDist8060.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectDist8060.pdf  used on inp
-ut line 621.
+ut line 619.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcaveEffectDist8060.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectDist8060.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectDist8060.pdf  used on inp
-ut line 621.
+ut line 619.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/BaselineConcaveEffectMag8060.pdf, id=210, 1363.0925pt x 717.68124pt>
 File: figures/BaselineConcaveEffectMag8060.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectMag8060.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectMag8060.pdf  used on inpu
-t line 634.
+t line 632.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/BaselineConcavePerimeter8060.pdf, id=211, 1363.0925pt x 717.68124pt>
 File: figures/BaselineConcavePerimeter8060.pdf Graphic file (type pdf)
 <use figures/BaselineConcavePerimeter8060.pdf>
 Package pdftex.def Info: figures/BaselineConcavePerimeter8060.pdf  used on inpu
-t line 643.
+t line 641.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcavePerimeter8060.pdf Graphic file (type pdf)
 <use figures/BaselineConcavePerimeter8060.pdf>
 Package pdftex.def Info: figures/BaselineConcavePerimeter8060.pdf  used on inpu
-t line 643.
+t line 641.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/Baseline8060End.pdf, id=212, 1363.0925pt x 717.68124pt>
 File: figures/Baseline8060End.pdf Graphic file (type pdf)
 <use figures/Baseline8060End.pdf>
-Package pdftex.def Info: figures/Baseline8060End.pdf  used on input line 655.
+Package pdftex.def Info: figures/Baseline8060End.pdf  used on input line 653.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/Baseline8060End.pdf Graphic file (type pdf)
 <use figures/Baseline8060End.pdf>
-Package pdftex.def Info: figures/Baseline8060End.pdf  used on input line 655.
+Package pdftex.def Info: figures/Baseline8060End.pdf  used on input line 653.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/Concave8060End.pdf, id=213, 1363.0925pt x 717.68124pt>
 File: figures/Concave8060End.pdf Graphic file (type pdf)
 <use figures/Concave8060End.pdf>
-Package pdftex.def Info: figures/Concave8060End.pdf  used on input line 665.
+Package pdftex.def Info: figures/Concave8060End.pdf  used on input line 663.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/Concave8060End.pdf Graphic file (type pdf)
 <use figures/Concave8060End.pdf>
-Package pdftex.def Info: figures/Concave8060End.pdf  used on input line 665.
+Package pdftex.def Info: figures/Concave8060End.pdf  used on input line 663.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/BaselineConcaveEffectPath80601.pdf, id=214, 1363.0925pt x 717.68124pt>
 
 File: figures/BaselineConcaveEffectPath80601.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectPath80601.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectPath80601.pdf  used on in
-put line 678.
+put line 676.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcaveEffectPath80601.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectPath80601.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectPath80601.pdf  used on in
-put line 678.
+put line 676.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/BaselineConcaveEffectPath80602.pdf, id=215, 1363.0925pt x 717.68124pt>
 
 File: figures/BaselineConcaveEffectPath80602.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectPath80602.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectPath80602.pdf  used on in
-put line 689.
+put line 687.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/BaselineConcaveEffectPath80602.pdf Graphic file (type pdf)
 <use figures/BaselineConcaveEffectPath80602.pdf>
 Package pdftex.def Info: figures/BaselineConcaveEffectPath80602.pdf  used on in
-put line 689.
+put line 687.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 699.
+Package pdftex.def Info: notaglineLogo.png  used on input line 697.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1189,33 +1189,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [9 <./figures/BaselineConcaveEffectDist8060.pdf> <./figures/BaselineConcaveEffe
 ctMag8060.pdf> <./figures/BaselineConcavePerimeter8060.pdf> <./figures/Baseline
 8060End.pdf> <./figures/Concave8060End.pdf>]
-Underfull \hbox (badness 3138) in paragraph at lines 706--706
+Underfull \hbox (badness 3138) in paragraph at lines 704--704
 []|\T1/ptm/b/n/8 Concave re-duc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--726
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
 []|\T1/ptm/b/n/8 Weight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--726
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
 []|\T1/ptm/b/n/8 Baseline
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--726
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
 []|\T1/ptm/b/n/8 Concave
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--728
+Underfull \hbox (badness 10000) in paragraph at lines 726--726
 []|\T1/ptm/m/n/8 weight ad-juster for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--728
+Underfull \hbox (badness 10000) in paragraph at lines 726--726
 \T1/ptm/m/n/8 con-cave re-duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+[]|\T1/ptm/m/n/8 weight ad-juster for
  []
 
 
@@ -1224,46 +1229,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 729--729
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 731--731
-[]|\T1/ptm/m/n/8 weight ad-juster for
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 731--731
+Underfull \hbox (badness 3907) in paragraph at lines 729--729
 \T1/ptm/m/n/8 des-ti-na-tion vec-tor 0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--732
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []|\T1/ptm/m/n/8 Repulsion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 733--733
+Underfull \hbox (badness 10000) in paragraph at lines 731--731
 []|\T1/ptm/m/n/8 Neighbour
  []
 
 <figures/Baseline4560End.pdf, id=249, 1363.0925pt x 717.68124pt>
 File: figures/Baseline4560End.pdf Graphic file (type pdf)
 <use figures/Baseline4560End.pdf>
-Package pdftex.def Info: figures/Baseline4560End.pdf  used on input line 743.
+Package pdftex.def Info: figures/Baseline4560End.pdf  used on input line 741.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/Baseline4560End.pdf Graphic file (type pdf)
 <use figures/Baseline4560End.pdf>
-Package pdftex.def Info: figures/Baseline4560End.pdf  used on input line 743.
+Package pdftex.def Info: figures/Baseline4560End.pdf  used on input line 741.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/Concave4560End.pdf, id=250, 1363.0925pt x 717.68124pt>
 File: figures/Concave4560End.pdf Graphic file (type pdf)
 <use figures/Concave4560End.pdf>
-Package pdftex.def Info: figures/Concave4560End.pdf  used on input line 754.
+Package pdftex.def Info: figures/Concave4560End.pdf  used on input line 752.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/Concave4560End.pdf Graphic file (type pdf)
 <use figures/Concave4560End.pdf>
-Package pdftex.def Info: figures/Concave4560End.pdf  used on input line 754.
+Package pdftex.def Info: figures/Concave4560End.pdf  used on input line 752.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 764.
+Package pdftex.def Info: notaglineLogo.png  used on input line 762.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1285,66 +1285,66 @@ fectPath80602.pdf> <./figures/Baseline4560End.pdf>]
 <figures/Concave4560-1.pdf, id=272, 1363.0925pt x 717.68124pt>
 File: figures/Concave4560-1.pdf Graphic file (type pdf)
 <use figures/Concave4560-1.pdf>
-Package pdftex.def Info: figures/Concave4560-1.pdf  used on input line 767.
+Package pdftex.def Info: figures/Concave4560-1.pdf  used on input line 765.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/Concave4560-1.pdf Graphic file (type pdf)
 <use figures/Concave4560-1.pdf>
-Package pdftex.def Info: figures/Concave4560-1.pdf  used on input line 767.
+Package pdftex.def Info: figures/Concave4560-1.pdf  used on input line 765.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/Concave4560-2.pdf, id=273, 1363.0925pt x 717.68124pt>
 File: figures/Concave4560-2.pdf Graphic file (type pdf)
 <use figures/Concave4560-2.pdf>
-Package pdftex.def Info: figures/Concave4560-2.pdf  used on input line 778.
+Package pdftex.def Info: figures/Concave4560-2.pdf  used on input line 776.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/Concave4560-2.pdf Graphic file (type pdf)
 <use figures/Concave4560-2.pdf>
-Package pdftex.def Info: figures/Concave4560-2.pdf  used on input line 778.
+Package pdftex.def Info: figures/Concave4560-2.pdf  used on input line 776.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/Concave4560-3.pdf, id=274, 1363.0925pt x 717.68124pt>
 File: figures/Concave4560-3.pdf Graphic file (type pdf)
 <use figures/Concave4560-3.pdf>
-Package pdftex.def Info: figures/Concave4560-3.pdf  used on input line 789.
+Package pdftex.def Info: figures/Concave4560-3.pdf  used on input line 787.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/Concave4560-3.pdf Graphic file (type pdf)
 <use figures/Concave4560-3.pdf>
-Package pdftex.def Info: figures/Concave4560-3.pdf  used on input line 789.
+Package pdftex.def Info: figures/Concave4560-3.pdf  used on input line 787.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/ConcavePerimeter4560-DIST.pdf, id=275, 1363.0925pt x 717.68124pt>
 File: figures/ConcavePerimeter4560-DIST.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-DIST.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-DIST.pdf  used on input l
-ine 806.
+ine 804.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/ConcavePerimeter4560-DIST.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-DIST.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-DIST.pdf  used on input l
-ine 806.
+ine 804.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/ConcavePerimeter4560-DIST-2.pdf, id=276, 1363.0925pt x 717.68124pt>
 File: figures/ConcavePerimeter4560-DIST-2.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-DIST-2.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-DIST-2.pdf  used on input
- line 819.
+ line 817.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/ConcavePerimeter4560-DIST-2.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-DIST-2.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-DIST-2.pdf  used on input
- line 819.
+ line 817.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/ConcavePerimeter4560-MAG.pdf, id=277, 1363.0925pt x 717.68124pt>
 File: figures/ConcavePerimeter4560-MAG.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-MAG.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-MAG.pdf  used on input li
-ne 832.
+ne 830.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/ConcavePerimeter4560-MAG.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-MAG.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-MAG.pdf  used on input li
-ne 832.
+ne 830.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 842.
+Package pdftex.def Info: notaglineLogo.png  used on input line 840.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1368,49 +1368,49 @@ IST.pdf> <./figures/ConcavePerimeter4560-DIST-2.pdf>]
 File: figures/ConcavePerimeter4560-MAG-2.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-MAG-2.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-MAG-2.pdf  used on input 
-line 845.
+line 843.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/ConcavePerimeter4560-MAG-2.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-MAG-2.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-MAG-2.pdf  used on input 
-line 845.
+line 843.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/ConcavePerimeter4560-1.pdf, id=318, 1363.0925pt x 717.68124pt>
 File: figures/ConcavePerimeter4560-1.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-1.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-1.pdf  used on input line
- 860.
+ 858.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/ConcavePerimeter4560-1.pdf Graphic file (type pdf)
 <use figures/ConcavePerimeter4560-1.pdf>
 Package pdftex.def Info: figures/ConcavePerimeter4560-1.pdf  used on input line
- 860.
+ 858.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/SwarmCoverage4560-1.pdf, id=319, 1363.0925pt x 717.68124pt>
 File: figures/SwarmCoverage4560-1.pdf Graphic file (type pdf)
 <use figures/SwarmCoverage4560-1.pdf>
 Package pdftex.def Info: figures/SwarmCoverage4560-1.pdf  used on input line 87
-3.
+1.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/SwarmCoverage4560-1.pdf Graphic file (type pdf)
 <use figures/SwarmCoverage4560-1.pdf>
 Package pdftex.def Info: figures/SwarmCoverage4560-1.pdf  used on input line 87
-3.
+1.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/SwarmCoverage4560-2.pdf, id=320, 1363.0925pt x 717.68124pt>
 File: figures/SwarmCoverage4560-2.pdf Graphic file (type pdf)
 <use figures/SwarmCoverage4560-2.pdf>
 Package pdftex.def Info: figures/SwarmCoverage4560-2.pdf  used on input line 88
-6.
+4.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/SwarmCoverage4560-2.pdf Graphic file (type pdf)
 <use figures/SwarmCoverage4560-2.pdf>
 Package pdftex.def Info: figures/SwarmCoverage4560-2.pdf  used on input line 88
-6.
+4.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 897.
+Package pdftex.def Info: notaglineLogo.png  used on input line 895.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1433,53 +1433,53 @@ pdf> <./figures/SwarmCoverage4560-2.pdf>]
 <figures/OilSlick.pdf, id=354, 449.68pt x 385.44pt>
 File: figures/OilSlick.pdf Graphic file (type pdf)
 <use figures/OilSlick.pdf>
-Package pdftex.def Info: figures/OilSlick.pdf  used on input line 905.
+Package pdftex.def Info: figures/OilSlick.pdf  used on input line 903.
 (pdftex.def)             Requested size: 227.62204pt x 195.10735pt.
 File: figures/OilSlick.pdf Graphic file (type pdf)
 <use figures/OilSlick.pdf>
-Package pdftex.def Info: figures/OilSlick.pdf  used on input line 905.
+Package pdftex.def Info: figures/OilSlick.pdf  used on input line 903.
 (pdftex.def)             Requested size: 227.62204pt x 195.10735pt.
 <figures/OilSpillSimulator.pdf, id=355, 1029.8475pt x 790.955pt>
 File: figures/OilSpillSimulator.pdf Graphic file (type pdf)
 <use figures/OilSpillSimulator.pdf>
-Package pdftex.def Info: figures/OilSpillSimulator.pdf  used on input line 917.
+Package pdftex.def Info: figures/OilSpillSimulator.pdf  used on input line 915.
 
 (pdftex.def)             Requested size: 227.62204pt x 174.81926pt.
 File: figures/OilSpillSimulator.pdf Graphic file (type pdf)
 <use figures/OilSpillSimulator.pdf>
-Package pdftex.def Info: figures/OilSpillSimulator.pdf  used on input line 917.
+Package pdftex.def Info: figures/OilSpillSimulator.pdf  used on input line 915.
 
 (pdftex.def)             Requested size: 227.62204pt x 174.81926pt.
 <figures/OilSpillBase1.pdf, id=356, 1363.0925pt x 717.68124pt>
 File: figures/OilSpillBase1.pdf Graphic file (type pdf)
 <use figures/OilSpillBase1.pdf>
-Package pdftex.def Info: figures/OilSpillBase1.pdf  used on input line 929.
+Package pdftex.def Info: figures/OilSpillBase1.pdf  used on input line 927.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillBase1.pdf Graphic file (type pdf)
 <use figures/OilSpillBase1.pdf>
-Package pdftex.def Info: figures/OilSpillBase1.pdf  used on input line 929.
+Package pdftex.def Info: figures/OilSpillBase1.pdf  used on input line 927.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/OilSpillBase2.pdf, id=357, 1363.0925pt x 717.68124pt>
 File: figures/OilSpillBase2.pdf Graphic file (type pdf)
 <use figures/OilSpillBase2.pdf>
-Package pdftex.def Info: figures/OilSpillBase2.pdf  used on input line 939.
+Package pdftex.def Info: figures/OilSpillBase2.pdf  used on input line 937.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillBase2.pdf Graphic file (type pdf)
 <use figures/OilSpillBase2.pdf>
-Package pdftex.def Info: figures/OilSpillBase2.pdf  used on input line 939.
+Package pdftex.def Info: figures/OilSpillBase2.pdf  used on input line 937.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/OilSpillBase3.pdf, id=358, 1363.0925pt x 717.68124pt>
 File: figures/OilSpillBase3.pdf Graphic file (type pdf)
 <use figures/OilSpillBase3.pdf>
-Package pdftex.def Info: figures/OilSpillBase3.pdf  used on input line 949.
+Package pdftex.def Info: figures/OilSpillBase3.pdf  used on input line 947.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillBase3.pdf Graphic file (type pdf)
 <use figures/OilSpillBase3.pdf>
-Package pdftex.def Info: figures/OilSpillBase3.pdf  used on input line 949.
+Package pdftex.def Info: figures/OilSpillBase3.pdf  used on input line 947.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 959.
+Package pdftex.def Info: notaglineLogo.png  used on input line 957.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1501,55 +1501,55 @@ illBase1.pdf> <./figures/OilSpillBase2.pdf>]
 <figures/OilSpillConcave1.pdf, id=388, 1363.0925pt x 717.68124pt>
 File: figures/OilSpillConcave1.pdf Graphic file (type pdf)
 <use figures/OilSpillConcave1.pdf>
-Package pdftex.def Info: figures/OilSpillConcave1.pdf  used on input line 961.
+Package pdftex.def Info: figures/OilSpillConcave1.pdf  used on input line 959.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillConcave1.pdf Graphic file (type pdf)
 <use figures/OilSpillConcave1.pdf>
-Package pdftex.def Info: figures/OilSpillConcave1.pdf  used on input line 961.
+Package pdftex.def Info: figures/OilSpillConcave1.pdf  used on input line 959.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/OilSpillConcave2.pdf, id=389, 1363.0925pt x 717.68124pt>
 File: figures/OilSpillConcave2.pdf Graphic file (type pdf)
 <use figures/OilSpillConcave2.pdf>
-Package pdftex.def Info: figures/OilSpillConcave2.pdf  used on input line 971.
+Package pdftex.def Info: figures/OilSpillConcave2.pdf  used on input line 969.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillConcave2.pdf Graphic file (type pdf)
 <use figures/OilSpillConcave2.pdf>
-Package pdftex.def Info: figures/OilSpillConcave2.pdf  used on input line 971.
+Package pdftex.def Info: figures/OilSpillConcave2.pdf  used on input line 969.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/OilSpillConcave3.pdf, id=390, 1363.0925pt x 717.68124pt>
 File: figures/OilSpillConcave3.pdf Graphic file (type pdf)
 <use figures/OilSpillConcave3.pdf>
-Package pdftex.def Info: figures/OilSpillConcave3.pdf  used on input line 981.
+Package pdftex.def Info: figures/OilSpillConcave3.pdf  used on input line 979.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillConcave3.pdf Graphic file (type pdf)
 <use figures/OilSpillConcave3.pdf>
-Package pdftex.def Info: figures/OilSpillConcave3.pdf  used on input line 981.
+Package pdftex.def Info: figures/OilSpillConcave3.pdf  used on input line 979.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/OilSpillPerimeter8060-DIST-1.pdf, id=391, 1363.0925pt x 717.68124pt>
 File: figures/OilSpillPerimeter8060-DIST-1.pdf Graphic file (type pdf)
 <use figures/OilSpillPerimeter8060-DIST-1.pdf>
 Package pdftex.def Info: figures/OilSpillPerimeter8060-DIST-1.pdf  used on inpu
-t line 996.
+t line 994.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillPerimeter8060-DIST-1.pdf Graphic file (type pdf)
 <use figures/OilSpillPerimeter8060-DIST-1.pdf>
 Package pdftex.def Info: figures/OilSpillPerimeter8060-DIST-1.pdf  used on inpu
-t line 996.
+t line 994.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/OilSpillPerimeter8060-MAG-1.pdf, id=392, 1363.0925pt x 717.68124pt>
 File: figures/OilSpillPerimeter8060-MAG-1.pdf Graphic file (type pdf)
 <use figures/OilSpillPerimeter8060-MAG-1.pdf>
 Package pdftex.def Info: figures/OilSpillPerimeter8060-MAG-1.pdf  used on input
- line 1009.
+ line 1007.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillPerimeter8060-MAG-1.pdf Graphic file (type pdf)
 <use figures/OilSpillPerimeter8060-MAG-1.pdf>
 Package pdftex.def Info: figures/OilSpillPerimeter8060-MAG-1.pdf  used on input
- line 1009.
+ line 1007.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 1019.
+Package pdftex.def Info: notaglineLogo.png  used on input line 1017.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1573,97 +1573,97 @@ ter8060-DIST-1.pdf> <./figures/OilSpillPerimeter8060-MAG-1.pdf>]
 File: figures/OilSpillPerimeter8060-1.pdf Graphic file (type pdf)
 <use figures/OilSpillPerimeter8060-1.pdf>
 Package pdftex.def Info: figures/OilSpillPerimeter8060-1.pdf  used on input lin
-e 1024.
+e 1022.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/OilSpillPerimeter8060-1.pdf Graphic file (type pdf)
 <use figures/OilSpillPerimeter8060-1.pdf>
 Package pdftex.def Info: figures/OilSpillPerimeter8060-1.pdf  used on input lin
-e 1024.
+e 1022.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/PerimeterObject2.pdf, id=433, 981.6675pt x 776.9025pt>
 File: figures/PerimeterObject2.pdf Graphic file (type pdf)
 <use figures/PerimeterObject2.pdf>
-Package pdftex.def Info: figures/PerimeterObject2.pdf  used on input line 1039.
+Package pdftex.def Info: figures/PerimeterObject2.pdf  used on input line 1037.
 
 (pdftex.def)             Requested size: 142.26378pt x 112.58276pt.
 File: figures/PerimeterObject2.pdf Graphic file (type pdf)
 <use figures/PerimeterObject2.pdf>
-Package pdftex.def Info: figures/PerimeterObject2.pdf  used on input line 1039.
+Package pdftex.def Info: figures/PerimeterObject2.pdf  used on input line 1037.
 
 (pdftex.def)             Requested size: 142.26378pt x 112.58276pt.
 <figures/PerimeterObject1.pdf, id=434, 764.8575pt x 776.9025pt>
 File: figures/PerimeterObject1.pdf Graphic file (type pdf)
 <use figures/PerimeterObject1.pdf>
-Package pdftex.def Info: figures/PerimeterObject1.pdf  used on input line 1049.
+Package pdftex.def Info: figures/PerimeterObject1.pdf  used on input line 1047.
 
 (pdftex.def)             Requested size: 142.26378pt x 144.49525pt.
 File: figures/PerimeterObject1.pdf Graphic file (type pdf)
 <use figures/PerimeterObject1.pdf>
-Package pdftex.def Info: figures/PerimeterObject1.pdf  used on input line 1049.
+Package pdftex.def Info: figures/PerimeterObject1.pdf  used on input line 1047.
 
 (pdftex.def)             Requested size: 142.26378pt x 144.49525pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
 []|\T1/ptm/b/n/8 Weight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
 \T1/ptm/b/n/8 com-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
 []|\T1/ptm/b/n/8 Baseline
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1067
 []|\T1/ptm/m/n/8 Sample
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 1070--1070
+Underfull \hbox (badness 3029) in paragraph at lines 1068--1068
 []|\T1/ptm/m/n/8 weight ad-juster for con-cave
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 1071--1071
+Underfull \hbox (badness 2799) in paragraph at lines 1069--1069
 []|\T1/ptm/m/n/8 weight ad-juster for ob-sta-cle
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 1072--1072
+Underfull \hbox (badness 1412) in paragraph at lines 1070--1070
 []|\T1/ptm/m/n/8 weight ad-juster for co-he-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1075--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1073
 []|\T1/ptm/m/n/8 Repulsion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1076
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1074
 []|\T1/ptm/m/n/8 Neighbour
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1077--1077
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1075
 []|\T1/ptm/m/n/8 Obstacle
  []
 
 <figures/ObstacleTest.pdf, id=435, 812.03375pt x 765.86125pt>
 File: figures/ObstacleTest.pdf Graphic file (type pdf)
 <use figures/ObstacleTest.pdf>
-Package pdftex.def Info: figures/ObstacleTest.pdf  used on input line 1084.
+Package pdftex.def Info: figures/ObstacleTest.pdf  used on input line 1082.
 (pdftex.def)             Requested size: 227.62204pt x 214.6734pt.
 File: figures/ObstacleTest.pdf Graphic file (type pdf)
 <use figures/ObstacleTest.pdf>
-Package pdftex.def Info: figures/ObstacleTest.pdf  used on input line 1084.
+Package pdftex.def Info: figures/ObstacleTest.pdf  used on input line 1082.
 (pdftex.def)             Requested size: 227.62204pt x 214.6734pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 1094.
+Package pdftex.def Info: notaglineLogo.png  used on input line 1092.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1686,32 +1686,32 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 File: figures/SWARMCOVER456060BASELINE.pdf Graphic file (type pdf)
 <use figures/SWARMCOVER456060BASELINE.pdf>
 Package pdftex.def Info: figures/SWARMCOVER456060BASELINE.pdf  used on input li
-ne 1096.
+ne 1094.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/SWARMCOVER456060BASELINE.pdf Graphic file (type pdf)
 <use figures/SWARMCOVER456060BASELINE.pdf>
 Package pdftex.def Info: figures/SWARMCOVER456060BASELINE.pdf  used on input li
-ne 1096.
+ne 1094.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/SWARMCOVER456060CONCAVE.pdf, id=464, 1363.0925pt x 717.68124pt>
 File: figures/SWARMCOVER456060CONCAVE.pdf Graphic file (type pdf)
 <use figures/SWARMCOVER456060CONCAVE.pdf>
 Package pdftex.def Info: figures/SWARMCOVER456060CONCAVE.pdf  used on input lin
-e 1108.
+e 1106.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 File: figures/SWARMCOVER456060CONCAVE.pdf Graphic file (type pdf)
 <use figures/SWARMCOVER456060CONCAVE.pdf>
 Package pdftex.def Info: figures/SWARMCOVER456060CONCAVE.pdf  used on input lin
-e 1108.
+e 1106.
 (pdftex.def)             Requested size: 227.62204pt x 119.8359pt.
 <figures/IdealSwarm.pdf, id=465, 302.12875pt x 261.97874pt>
 File: figures/IdealSwarm.pdf Graphic file (type pdf)
 <use figures/IdealSwarm.pdf>
-Package pdftex.def Info: figures/IdealSwarm.pdf  used on input line 1123.
+Package pdftex.def Info: figures/IdealSwarm.pdf  used on input line 1121.
 (pdftex.def)             Requested size: 85.35826pt x 74.01312pt.
 File: figures/IdealSwarm.pdf Graphic file (type pdf)
 <use figures/IdealSwarm.pdf>
-Package pdftex.def Info: figures/IdealSwarm.pdf  used on input line 1123.
+Package pdftex.def Info: figures/IdealSwarm.pdf  used on input line 1121.
 (pdftex.def)             Requested size: 85.35826pt x 74.01312pt.
  (./paper.bbl
 
@@ -1763,47 +1763,47 @@ mil-i-
 <Images/eliot.pdf, id=487, 41.15375pt x 40.15pt>
 File: Images/eliot.pdf Graphic file (type pdf)
 <use Images/eliot.pdf>
-Package pdftex.def Info: Images/eliot.pdf  used on input line 1139.
+Package pdftex.def Info: Images/eliot.pdf  used on input line 1137.
 (pdftex.def)             Requested size: 72.27884pt x 70.51593pt.
 File: Images/eliot.pdf Graphic file (type pdf)
 <use Images/eliot.pdf>
-Package pdftex.def Info: Images/eliot.pdf  used on input line 1139.
+Package pdftex.def Info: Images/eliot.pdf  used on input line 1137.
 (pdftex.def)             Requested size: 72.27884pt x 70.51593pt.
 
-Underfull \hbox (badness 1675) in paragraph at lines 1139--1141
+Underfull \hbox (badness 1675) in paragraph at lines 1137--1139
 []\T1/phv/m/n/8 NEIL ELIOT \T1/ptm/n/n/8 has been a Se-nior Lec-turer at
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 1139--1141
+Underfull \hbox (badness 1533) in paragraph at lines 1137--1139
 \T1/ptm/n/n/8 Northum-bria Uni-ver-sity since 1998. Neil was
  []
 
 <Images/kenda.pdf, id=490, 146.5475pt x 128.48pt>
 File: Images/kenda.pdf Graphic file (type pdf)
 <use Images/kenda.pdf>
-Package pdftex.def Info: Images/kenda.pdf  used on input line 1143.
+Package pdftex.def Info: Images/kenda.pdf  used on input line 1141.
 (pdftex.def)             Requested size: 72.26953pt x 63.35959pt.
 File: Images/kenda.pdf Graphic file (type pdf)
 <use Images/kenda.pdf>
-Package pdftex.def Info: Images/kenda.pdf  used on input line 1143.
+Package pdftex.def Info: Images/kenda.pdf  used on input line 1141.
 (pdftex.def)             Requested size: 72.26953pt x 63.35959pt.
 <Images/brock.pdf, id=493, 993.7125pt x 1024.82875pt>
 File: Images/brock.pdf Graphic file (type pdf)
 <use Images/brock.pdf>
-Package pdftex.def Info: Images/brock.pdf  used on input line 1147.
+Package pdftex.def Info: Images/brock.pdf  used on input line 1145.
 (pdftex.def)             Requested size: 72.26596pt x 74.52882pt.
 File: Images/brock.pdf Graphic file (type pdf)
 <use Images/brock.pdf>
-Package pdftex.def Info: Images/brock.pdf  used on input line 1147.
+Package pdftex.def Info: Images/brock.pdf  used on input line 1145.
 (pdftex.def)             Requested size: 72.26596pt x 74.52882pt.
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png  used on input line 1151.
+Package pdftex.def Info: bullet.png  used on input line 1149.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 1153.
+Package pdftex.def Info: notaglineLogo.png  used on input line 1151.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1840,7 +1840,7 @@ Here is how much of TeX's memory you used:
  9717 multiletter control sequences out of 15000+600000
  109116 words of font info for 159 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 41i,13n,53p,1527b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,53p,1527b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1861,7 +1861,7 @@ vr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (17 pages, 19300592 bytes).
+Output written on paper.pdf (17 pages, 19300485 bytes).
 PDF statistics:
  579 PDF objects out of 1000 (max. 8388607)
  346 compressed objects within 4 object streams

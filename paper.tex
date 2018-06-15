@@ -85,25 +85,23 @@ When cohesion and repulsion (\textit{inter-agent vectors}) are the only field ef
 %% \caption{Stable swarm edges\label{concave:SwarmStableShape1}}
 %% \end{figure}
 
-The problem with these anomalies is that although they are stable due to the balancing of the \textit{inter-agent vectors} they create non-uniform structures that may be unsuitable for tasks that require a generic swarm formation.
+The problem with these anomalies is that although they are stable due to the balancing of the \textit{inter-agent vectors} they create non-uniform structures that may be unsuitable for tasks that require a uniform swarm formation.
 
-\textit{Concave reduction} is a process that causes a swarm to coalesce towards a more generic shape. This is achieved by removing voids and concave edges to reshape the swarm to a structure with more hexagonal symmetry.  
+\textit{Concave reduction} is a process that causes a swarm to coalesce towards a more geometricaly stable shape. This is achieved by removing voids and concave edges to reshape the swarm to a structure with a more hexagonal symmetry.  
 
-The technique defined in this paper functions without the need for inter-agent or global messaging and is implemented at the local agent level through proximity detection.
+The technique defined in this paper functions without the need for inter-agent or global messaging. It is implemented at the local agent level through proximity detection.
 
 \section{Related Work}\label{sec:RelatedWork}
-
-Researchers have identified several approaches to resolving swarm structure issues. A prototype framework for self healing swarms was developed by Dai et al. which considered the problem of agent failure in hostile environments~\cite{DHMRZ:06}. This is in line with work carried out by Vassev and Hinchey who model swarm deployment using ASSL (Autonomic System Specification Language)~\cite{VH:09}. This technique was used by NASA (National Aeronautics and Space Administration) when developing their ANTS (Autonomous Nano Technology Swarm) for use in asteroid belt exploration. This line of research is more focused towards an agent's internal systems failure rather than the removal of anomalies in a swarm distribution. Roach et al. take a different approach and focus on the effects of sensor failure and the effect that has on agent distribution~\cite{RMT:15}. The closest research to concave reduction as discusssed in this paper is that of Lee and Chong who identify the issue of concave edges within swarms in an attempt to create regular lattice formations~\cite{GN:08}. The main focus of their paper is the restructuring of the internal distribution of inter-agent formations. The research by Ismail and Timmis used the approach of \textit{bio-inspired} healing using \textit{granuloma formation}, a biological method for encapsulating an antigen~\cite{IT:10}.
+Research have identified several approaches to resolving swarm structure issues. A prototype framework for self healing swarms was developed by Dai et al. which considered the problem of agent failure in hostile environments~\cite{DHMRZ:06}. This is in line with work carried out by Vassev and Hinchey who model swarm deployment using ASSL (Autonomic System Specification Language)~\cite{VH:09}. This technique was used by NASA (National Aeronautics and Space Administration) when developing their ANTS (Autonomous Nano Technology Swarm) for use in asteroid belt exploration. This line of research is more focused towards an agent's internal systems failure rather than the removal of anomalies in a swarm distribution. Roach et al. takes a different approach and focuses on the effects of sensor failure and the effect that has on agent distribution~\cite{RMT:15}. The closest research to concave reduction, as discussed in this paper, is that of Lee and Chong who identify the issue of concave edges within swarms in an attempt to create regular lattice formations~\cite{GN:08}. The main focus of their paper is the restructuring of the internal distribution of inter-agent formations. The research by Ismail and Timmis used the approach of \textit{bio-inspired} healing using \textit{granuloma formation}, a biological method for encapsulating an antigen~\cite{IT:10}.
 
 Concave reduction is an extension of the work discussed by Ismail and Timmis in their paper on `self-healing' \cite{IT:10} and Lee and Chong's work on identifying concave edges~\cite{GN:08}. The technique also draws on the work of McLurkin and Demaine who have developed algorithms to detect perimeter types~\cite{MD:09}, although this paper does not identify the perimeter types as this would require a communications infrastructure.
 
 \section{Concave reduction}\label{sec:ConcaveReduction}
+In a 3D space a sphere provides maximum volume with the minimum surface area and in a 2D Euclidean plane a circle provides maximum area with the minimum perimeter size. Both of these facts indicate that a perimeter should tend towards creating a structure where the outer edges are convex in nature. 
 
-In a 3D space a sphere provides maximum volume with the minimum surface area and in a 2D Euclidean plane a circle provides maximum area with the minimum perimeter size. Both of these facts indicate that a perimeter should be tending towards a structure where its outer edges are convex in nature. 
-
-Agents are identified as being perimeter based if they comply with a set of conditions. The conditions are: 
+Agents are identified as being perimeter-based if they comply with a set of conditions. These conditions are: 
 \begin{itemize}
-  \item There are at least two adjacent neighbours that cannot detect each other.
+  \item The re are at least two adjacent neighbours that cannot detect each other.
   \item The agent has less than 4 neighbours.
   \item The angle between two neighbours is $> 180^\circ$.
 \end{itemize} 
@@ -111,7 +109,7 @@ These conditions create an identifiable set of agents that create a perimeter.
 
 This process detects both the outer edge of a swarm and any internal features~(voids) that satisfy the same set of conditions. It is therefore possible to have both voids and islands of agents within the same swarm. Voids are best defined as perimeters that are concave in nature and inside another perimeter. McLurkin describes two types of perimeters convex and concave~\cite{MD:09}. A convex perimeter is an edge where the average angle of the agent's exposed faces are~$< 180^\circ$. A concave perimeter is where the average exposed angle is~$> 180^\circ$.
  
-When discussing \textit{concave reduction} the concave angle of interest is the relationship between an agent and two of its adjacent neighbours such that the neighbours have no visibility of each other and the neighbour-agent-neighbour relationship produces an angle~$< 180^\circ$. This is unrelated to the aggregate angle used to identify the perimeter type that the agent is a member of. Concave reduction therefore affects both inner~(Fig.~\ref{fig:InnerPerimeter1}) and outer~(Fig.~\ref{fig:OuterPerimeter1}) perimeter agents. Fig.~\ref{fig:OuterPerimeter1} and \ref{fig:InnerPerimeter1} show candidate agents identified by this process in black. 
+When discussing \textit{concave reduction} the concave angle of interest is the relationship between an agent and two of its adjacent neighbours such that the neighbours have no visibility of each other and the neighbour-agent-neighbour relationship produces an angle~$< 180^\circ$. This is unrelated to the aggregate angle used to identify the perimeter type that an agent is a member of. Concave reduction therefore affects both inner~(Fig.~\ref{fig:InnerPerimeter1}) and outer~(Fig.~\ref{fig:OuterPerimeter1}) perimeter agents. Figure~\ref{fig:OuterPerimeter1} and \ref{fig:InnerPerimeter1} show candidate agents (black) identified by this process. 
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=4cm]{figures/OuterPerimeter1}
 {Outer Perimeter\label{fig:OuterPerimeter1}}
@@ -133,10 +131,10 @@ When discussing \textit{concave reduction} the concave angle of interest is the 
 %% \caption{Inner Perimeter\label{fig:InnerPerimeter1}}
 %% \end{figure}
 
-The purpose of \textit{concave reduction} is to alter the overall structure of the swarm by replacing the calculated \textit{movement-direction vector} on anomalous perimeter agents. These perimeter based changes cause a cascading movement within the swarm as non-perimeter based agent's \textit{interaction vectors} attempting to move towards a position of equilibrium to their neighbours. The movement of the concave-perimeter~(internal void) agents creates a tendency for the void to be removed~(Fig.~\ref{fig:InnerPerimeter2}~and~\ref{fig:InnerPerimeter3}) by percolating the void out of the swarm. On the outer perimeter deformities (indents) are straightened~(Fig.~\ref{fig:OuterPerimeter3}) and eventually a perimeter agent and its neighbours will tend towards creating a convex edge.
+The purpose of \textit{concave reduction} is to alter the overall structure of the swarm by replacing the calculated \textit{movement-direction vector} on anomalous perimeter agents. These perimeter based changes cause a cascading movement within the swarm as non-perimeter based agent's \textit{interaction vectors} attempting to move towards a position of equilibrium to their neighbours. The movement of the concave-perimeter~(internal void) agents creates a movement that closes the void~(Fig.~\ref{fig:InnerPerimeter2}~and~\ref{fig:InnerPerimeter3}) by percolating the void out of the swarm. On the outer perimeter deformities (indents) are straightened~(Fig.~\ref{fig:OuterPerimeter3}) and eventually a perimeter agent and its neighbours will tend towards creating a convex edge.
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=4cm]{figures/PerimeterBotsCircle3}
-{Inner Perimeter\label{fig:InnerPerimeter2}}
+{Concave reduction effect on perimeters\label{fig:InnerPerimeter2}}
 
 %% \begin{figure}
 %% \begin{center}
@@ -176,10 +174,10 @@ The purpose of \textit{concave reduction} is to alter the overall structure of t
 %% \end{figure}
 
 \section{Concave reduction implementation}\label{sec:ConcaveReductionImp}
-A swarm's perimeter can be used to modify its behaviour, such as reducing the sensor requirements to coordinate a swarm to a destination. Identifying agents that are suitable for concave reduction involves the same conditional checks as the perimeter detection algorithm with the addition of a status check on the \textit{cyclic-angular-check} component. 
+A swarm's perimeter can be used to modify its behaviour, such as reducing the sensor requirements to coordinate a swarm to a destination. Identifying agents that are suitable for concave reduction involves the same conditional checks as the perimeter detection algorithm with the addition of a status check when sweeping the neighbours. 
 
-\subsection{Full-perimeter coordinator detection}\label{sec:PerimeterAgentDetection} 
-The process of detecting a perimeter agent involves several steps. Primarily it involves identifying agents that are not surrounded by interconnected neighbours~(Fig.~\ref{reduced:Perimeter1}). The processes are discussed in more detail below: 
+\subsection{Full-perimeter detection}\label{sec:PerimeterAgentDetection} 
+The process of detecting perimeter agents involves several steps. Primarily it involves identifying agents that are not surrounded by interconnected neighbours~(Fig.~\ref{reduced:Perimeter1}). These processes are discussed in more detail here. 
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=4cm]{figures/Perimeter1}
 {Complex multifaceted agents\label{reduced:Perimeter1}}
@@ -191,7 +189,7 @@ The process of detecting a perimeter agent involves several steps. Primarily it 
 %% \caption{Complex multifaceted agents \label{reduced:Perimeter1}}
 %% \end{figure}
 
-The first check is a short circuit count of the number of neighbours. If an agent has $\leq 4$ neighbours and the swarm parameters are for a hexagonal swarm configuration then the agent is a perimeter agent and therefore a coordinator. This identification process is shown in~Fig.~\ref{algo:SmallNeighbourCount}. 
+The first check is a short circuit count of the number of neighbours. If an agent has $\leq 4$ neighbours and the swarm parameters are for a hexagonal swarm configuration then the agent is a perimeter agent. This identification process is shown in~Fig.~\ref{algo:SmallNeighbourCount}. 
 
 \begin{figure}
 \begin{algorithmic}[1]
@@ -207,7 +205,7 @@ The first check is a short circuit count of the number of neighbours. If an agen
 \label{algo:SmallNeighbourCount}
 \end{figure}
 
-If the short circuit neighbour count check fails then further conditions must be checked. The additional checks require a dictionary of agent/angular values to be generated~\eqref{eq:ConcaveVoidPhysics1}. Fig.~\ref{algo:getNeighbourAngles} shows how the dictionary of agent/angle values are produced.   
+If the short circuit neighbour count returns false then further conditions must be checked. The additional checks require a dictionary of agent/angular values to be generated~\eqref{eq:ConcaveVoidPhysics1}. The algorithm shown in Fig.~\ref{algo:getNeighbourAngles} shows how the dictionary of agent/angle values are produced.   
 
 % \begin{equation}
 % S_b \buildrel \Delta \over = \{(b',\angle\{(b'~b~b^0)) : b' \in nbr(b)\}\}
@@ -247,7 +245,7 @@ Fig. \ref{algo:getNeighbourAngles} shows the logic to produce the sorted neighbo
 
 Using the angular dictionary from Fig.~\ref{algo:getNeighbourAngles} it is possible to identify if adjacent neighbours can detect each other. If the agent is within all of its neighbours boundary then it is not on the perimeter~(Fig.~\ref{algo:CheckVisibility}). 
 
-As the agents are monolithic all agents have the same field effects the `visibility' of two neighbours can be determined. The angle and distance of each neighbour pair and the angle they create allows cosine rule to be used to calculate the distance the neighbours are apart as shown in~\eqref{eq:CosineRule1} and~\ref{reduced:Triangulate}. The distance is then checked against the neighbour range field effect. If the distance is $\leq N_b$ where $N_b$ is the \textit{neighbour field} then the agent can assume the neighbours have `sight' of each other. 
+As all the agents have the same field effects the `visibility' of two neighbours can be determined. The angle and distance of each neighbour pair allows the cosine rule to be used to calculate the distance the neighbours are apart as shown in~\eqref{eq:CosineRule1} and Fig.~\ref{reduced:Triangulate}. The distance is checked against the neighbour range, if the distance is $\leq N_b$ where $N_b$ is the \textit{neighbour field} then it can be assumed that the neighbours have `sight' of each other. 
 
 \Figure[t!](topskip=0pt, botskip=0pt, midskip=0pt)[width=3cm]{figures/Triangulate}
 {Neighbour visibility\label{reduced:Triangulate}}
